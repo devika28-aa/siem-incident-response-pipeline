@@ -11,9 +11,8 @@
 ## 2. Incident Response Playbook
 
 ### 🛠️ Phase 1: Detection & Analysis
-* **SIEM Threat Hunting Query (KQL):** ```text
+* **SIEM Threat Hunting Query (KQL):** text
     message : *whoami* or message : *net*
-    ```
 * **Telemetry Verification:** Look for a synchronized volume anomaly spike on the timeline histogram inside the `logs-*` view. 
 * **Forensic Parsing:** Expand the target document log entry. Inspect and verify the presence of **Sysmon Event ID 1 (Process Creation)**. Ensure that the `winlog.event_data.Image` field explicitly maps to `C:\Windows\System32\whoami.exe` and matches the targeted user account context (`DESKTOP-MFC4RRM\Devika`).
 
