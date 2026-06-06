@@ -37,4 +37,4 @@
 ---
 
 ## 🖼️ Forensic Artifact Evidence
-![Registry Persistence Pipeline Capture](./registry_evidence.png)
+![Registry Persistence Pipeline Capture](./registry-startup-persistence.png)
