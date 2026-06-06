@@ -14,16 +14,16 @@ Regardless of the attack vector, every security analyst must execute the followi
 ## 🛠️ Specialized Tactical Playbooks
 Because generic checklists fail against sophisticated threats, the IR lifecycle must be tailored specifically to the nature of each breach. 
 
-Select the appropriate tactical playbook module below to execute attack-specific containment, eradication commands, and parsed KQL hunting queries:
+Select the appropriate tactical playbook file below to execute attack-specific containment, eradication commands, and parsed KQL hunting queries:
 
-### 📁 [Playbook Module 01: Post-Phishing Host Reconnaissance (T1033)](../01-post-phishing-host-reconnaissance/)
-*   **Trigger:** Unauthorized execution of native administrative auditing commands (`whoami`, `net user`).
-*   **Core Action:** Process tree freeze and proactive local credential revocation.
+### 📁 [Playbook Module 01: Post-Phishing Host Reconnaissance (T1033)](./01-post-phishing-host-recon.md)
+* **Trigger:** Unauthorized execution of native administrative auditing commands (`whoami`, `net user`).
+* **Core Action:** Process tree freeze and proactive local credential revocation.
 
-### 📁 [Playbook Module 02: Startup Registry Persistence Modification (T1547.001)](../02-registry-startup-persistence/)
-*   **Trigger:** Tampering detected within system auto-run registry hives (Sysmon Event ID 13).
-*   **Core Action:** Zero-reboot network containment and deep registry value purging (`reg delete`).
+### 📁 [Playbook Module 02: Startup Registry Persistence Modification (T1547.001)](./02-registry-startup-persistence.md)
+* **Trigger:** Tampering detected within system auto-run registry hives (Sysmon Event ID 13).
+* **Core Action:** Zero-reboot network containment and deep registry value purging (`reg delete`).
 
-### 📁 [Playbook Module 03: Application Layer Protocol Data Exfiltration (T1105)](../03-application-layer-data-exfiltration/)
-*   **Trigger:** Staging and exfiltration of data logs masquerading as standard web traffic (`curl`, `libcurl.dll`).
-*   **Core Action:** Emergency egress firewall isolation and multi-tier financial fraud digital footprint mapping.
+### 📁 [Playbook Module 03: Application Layer Protocol Data Exfiltration (T1105)](./03-application-layer-exfil.md)
+* **Trigger:** Staging and exfiltration of data logs masquerading as standard web traffic (`curl`, `libcurl.dll`).
+* **Core Action:** Emergency egress firewall isolation and multi-tier financial fraud digital footprint mapping.
