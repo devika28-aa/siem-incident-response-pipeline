@@ -42,4 +42,4 @@
 ![Data Exfiltration Pipeline Capture](./exfil_evidence.png)
 
 ### Expanded Field Parsing Metadata (Forensic Identification)
-![Parsed Metadata Fields View](./parsed_fields_evidence.png)
+![Parsed Metadata Fields View](./application-layer-exfil.png)
