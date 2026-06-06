@@ -2,11 +2,8 @@
 
 ## 1. Technical Attack Simulation
 * **Adversary Objective:** Auditing local system context, user group memberships, and administrative privilege boundaries immediately following initial access via a phishing vector.
-* **Execution Command:** ```powershell
+* **Execution Command:** powershell
     whoami
-    ```
-
----
 
 ## 2. Incident Response Playbook
 
