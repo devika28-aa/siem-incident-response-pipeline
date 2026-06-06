@@ -4,11 +4,6 @@ This document establishes the official Incident Response (IR) Framework for cont
 
 ## 2. Standard IR Phase Matrix (NIST SP 800-61 r2)
 Regardless of the attack vector, every security analyst must execute the following four fundamental lifecycle phases:
-[ PHASE 1: Detection ] ────► [ PHASE 2: Containment ]
-│
-[ PHASE 4: Post-Mortem ] ◄─── [ PHASE 3: Eradication ]
-
-
 *   **Phase 1: Detection & Analysis:** Continuous ingestion of high-fidelity kernel telemetry (Sysmon) via Elastic Agent pipelines to isolate high-risk Indicators of Compromise (IoCs).
 *   **Phase 2: Containment:** Immediate network-level segregation and credential token revocation to neutralize lateral threat movement.
 *   **Phase 3: Eradication:** Elevated system purging of malicious process trees, unauthorized startup entries, and staging binaries.
