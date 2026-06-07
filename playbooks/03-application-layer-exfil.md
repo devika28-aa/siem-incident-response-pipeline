@@ -39,7 +39,5 @@
 ## 🖼️ Forensic Artifact Evidence
 
 ### SIEM Ingestion Query Hits
-![Data Exfiltration Pipeline Capture](./exfil_evidence.png)
+![Data Exfiltration Pipeline Capture](./application-layer-exfil.png)
 
-### Expanded Field Parsing Metadata (Forensic Identification)
-![Parsed Metadata Fields View](./application-layer-exfil.png)
